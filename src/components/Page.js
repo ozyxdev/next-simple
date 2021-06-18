@@ -1,6 +1,6 @@
-import Head from 'next/head'
 import styled from 'styled-components'
 import GlobalStyles from './styles/GlobalStyles'
+import TypographyStyles from './styles/TypographyStyles'
 import ThemeToggle from './shared/ThemeToggle'
 
 const PageWrapper = styled.div`
@@ -21,8 +21,9 @@ const HeaderStyles = styled.header`
 function Page({ children }) {
   return (
     <PageWrapper>
-      <GlobalStyles />
       <HeaderStyles>
+        <GlobalStyles />
+        <TypographyStyles />
         <PageContainerStyles>
           <ThemeToggle />
         </PageContainerStyles>
