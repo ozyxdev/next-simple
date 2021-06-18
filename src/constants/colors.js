@@ -16,11 +16,19 @@ export const COLORS = {
   },
   primary: {
     light: grape.main, // Pinkish-red
-    dark: waterMelon.main, // Yellow
+    dark: aqua.main, // Yellow
+  },
+  primaryLight: {
+    light: grape.light, // Pinkish-red
+    dark: aqua.dark, // Yellow
   },
   secondary: {
     light: aqua.main, // Purplish-blue
     dark: aqua.main, // Cyan
+  },
+  secondaryLight: {
+    light: aqua.light, // Purplish-blue
+    dark: aqua.light, // Cyan
   },
 }
 

@@ -5,39 +5,14 @@ const MainStyles = styled.div`
   color: var(--color-text);
   display: grid;
   grid-gap: 30px;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, 100px);
 
   div {
     margin: 2rem;
     width: 100px;
     height: 100px;
-    background: var(--color-offBackground);
+    background: #fff0f3;
     border-radius: 1rem;
-  }
-
-  .shadow-sm {
-    box-shadow: var(--shadow-sm);
-  }
-  .shadow-default {
-    box-shadow: var(--shadow-default);
-  }
-  .shadow-md {
-    box-shadow: var(--shadow-md);
-  }
-  .shadow-lg {
-    box-shadow: var(--shadow-lg);
-  }
-
-  .shadow-xl {
-    box-shadow: var(--shadow-xl);
-  }
-
-  .shadow-xxl {
-    box-shadow: var(--shadow-xxl);
-  }
-
-  .shadow-inner {
-    box-shadow: var(--shadow-inner);
   }
 `
 export default function Home() {
@@ -86,6 +61,21 @@ export default function Home() {
         </div>
         <div>
           <p className="small"> Body small</p>
+        </div>
+        <div>
+          <p>
+            I’ve written <a href="/"> a few thousand words </a>on why
+            traditional “semantic class names” Delectus repudiandae architecto
+            minus debitis, libero provident obcaecati soluta expedita quod, rem
+            ad. Suscipit reiciendis dolore tempora praesentium eaque accusamus
+            animi magnam.
+          </p>
+        </div>
+        <div>
+          <p className="small">
+            I’ve written <a href="/"> a few thousand words </a>on why
+            traditional “semantic class names”.
+          </p>
         </div>
       </div>
     </div>

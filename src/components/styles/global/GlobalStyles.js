@@ -26,6 +26,8 @@ const GlobalStyles = createGlobalStyle`
     
     font-size: 8px;
     font-weight: 400;
+
+    background: var(--color-background)
   }
 
   body {
@@ -36,24 +38,8 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     letter-spacing: 0.5px;
     line-height: 2;
-    background: #e0e7ff;;
     color: var(--color-text);
   }
-
-  .container-full-width {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-  }
-
-  .container {
-    max-width: var(--max-width);
-    margin: auto 0;
-  }
-
 `
 
 export default GlobalStyles
